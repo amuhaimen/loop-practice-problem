@@ -7,13 +7,13 @@ for (var i = 1; i <= 39; i++) {
 // practice 2.
 
 for (i = 58; i <= 98; i++) {
-  // console.log(i);
+  console.log(i);
 }
 
 // practice 3. print 412 to 456 all even numbers.
 
 for (i = 412; i <= 456; i += 2) {
-  // console.log(i);
+     console.log(i);
 }
 
 // practice 4. print 581 to 623 all odd numbers
@@ -28,7 +28,7 @@ var haveLearned = ["HTML", "CSS", "TAILWIND", "JAVASCRIPT"];
 
 for (i = 0; i < haveLearned.length; i++) {
   var topic = haveLearned[i];
-  // console.log(topic);
+  console.log(topic);
 }
 
 // practice 6.
@@ -60,5 +60,6 @@ for (var i = 0; i < bookPrices.length; i++) {
   if (price > 200) {
     continue;
   }
-  // console.log(price);
+  
+  console.log(price);
 }
